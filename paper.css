@@ -12,7 +12,6 @@ http://creativecommons.org/licenses/by/3.0/us/
 You can see full set here:
 http://www.fatcow.com/free-icons
 */
-
 @import "../css/tt-rss.css";
 @import "../css/dijit.css";
 @import "../css/cdm.css";
@@ -53,7 +52,6 @@ div.cdm.active div.cdmHeader a.title,
 div.cdm.expanded div.cdmHeader a.title,
 div#floatingTitle a.title {
   background-color: transparent !important;
-  color: #464646 !important;
   text-decoration: none !important;
   font-weight: bold;
   font-size: 18px !important;
@@ -76,7 +74,6 @@ div#floatingTitle span.author {
   font-family: 'Open Sans Condensed', sans-serif !important;
 }
 /* loader */
-
 #overlay {
   background: #f5f1e8;
   color: #f4efe2;
@@ -118,7 +115,6 @@ div#floatingTitle span.author {
   border: 0;
 }
 /* images replace */
-
 img[src*="images/indicator_white.gif"] {
   top: 0 !important;
   display: inline-block;
@@ -201,13 +197,11 @@ img[src*="images/page_white_go.png"] {
   transition: all .01s linear;
 }
 /* sidebar */
-
 .dijitTree {
   background-color: #f4efe2;
   color: #f4efe2;
 }
 /* all sort of styles */
-
 .dijitIconFolderOpen,
 .dijitFolderOpened,
 .dijitIconFolderClosed,
@@ -223,6 +217,14 @@ img[src*="images/page_white_go.png"] {
 #headlines-spacer span:hover,
 .insensitive:hover {
   color: #606060;
+}
+#ttrssMain {
+  /* main */
+  /* sidebar */
+  /* roots */
+  /* top part */
+  /* fixed feed name */
+  /* buttons */
 }
 #ttrssMain .dijitSplitContainer-dijitContentPane,
 #ttrssMain .dijitBorderContainer-dijitContentPane {
@@ -575,7 +577,6 @@ img[src*="images/page_white_go.png"] {
   border: 0 !important;
 }
 /* posts */
-
 .hl a,
 div.postReply a,
 div.cdmContent a,
@@ -594,7 +595,6 @@ div.cdm.expandable a:hover {
   color: #131313;
 }
 /* labels */
-
 div.cdmHeader div.hlFeed,
 div.cdmHeader div.hlFeed a,
 a.hlFeed {
@@ -604,7 +604,6 @@ a.hlFeed {
   font-size: 11px !important;
 }
 /* combined auto expanded */
-
 div.cdm.expanded,
 div.cdm.expandable {
   position: relative;
@@ -656,7 +655,6 @@ div.cdm.expandable.active div.cdmFooter a.title {
   color: #464646;
 }
 /* combined no auto expand */
-
 div.cdm.expandable,
 .hl {
   position: relative;
@@ -677,7 +675,6 @@ div.cdm.expandable.active {
   border-bottom: 0 none;
 }
 /* not combined view */
-
 div.hl.active {
   border: 1px solid #d2c8ac;
   border-width: 0 0 1px 0;
@@ -700,7 +697,6 @@ div.postReply div.postDate {
   font-size: 12px !important;
 }
 /* floating title */
-
 div#floatingTitle {
   top: 0;
   margin-right: 0 !important;
@@ -718,7 +714,6 @@ div#floatingTitle {
   width: auto;
 }
 /* tooltip */
-
 .claro .dijitTooltipContainer {
   border: 1px solid #464646;
   border-radius: 2px;
@@ -731,7 +726,6 @@ div#floatingTitle {
   background-image: url("paper/tooltip.png");
 }
 /* forms */
-
 .claro .dijitDialogUnderlay {
   background-color: #464646;
   opacity: .8;
@@ -741,7 +735,7 @@ div#floatingTitle {
   background-color: #f4efe2;
 }
 .claro .dijitDialog .dijitInputInner {
-  color: white !important;
+  color: #fff !important;
 }
 .claro .dijitDialog button,
 .claro .dijitDialog input[type="submit"],
